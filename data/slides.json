@@ -1,0 +1,36 @@
+{
+  "slides": [
+    {
+      "id": "1",
+      "title": "Desenvolvimento de Novos Negócios",
+      "description": "Identificamos oportunidades de crescimento para a sua empresa em Angola e no exterior",
+      "image": "/slides/1768351210489-slide1.jpg",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "2",
+      "title": "Parcerias Estratégicas",
+      "description": "Conectamos empresas com os parceiros certos para expandir seus negócios",
+      "image": "/slides/1768351220349-slide2.jpg",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "3",
+      "title": "Consultoria Especializada",
+      "description": "Fornecemos informação relevante para tomada de decisões estratégicas",
+      "image": "/slides/1768351229020-slide3.jpg",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "1768411910793",
+      "title": "slide de Teste 4",
+      "description": "Algum texto de teste",
+      "image": "",
+      "active": false,
+      "order": 4
+    }
+  ]
+}

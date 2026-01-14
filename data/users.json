@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "$2a$10$YourHashedPasswordHere",
+      "email": "admin@dalodursolutions.com",
+      "role": "admin"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "smtpHost": "",
+  "smtpPort": 587,
+  "smtpUser": "admin",
+  "smtpPassword": "admin123",
+  "recipientEmail": "geral@dalodursolutions.com",
+  "fromName": "Dalodur Solutions - Website",
+  "mapEnabled": true,
+  "mapEmbedUrl": "https://maps.app.goo.gl/hdzXNhmt7dXJ8tJbA",
+  "mapHeight": 450
+}
