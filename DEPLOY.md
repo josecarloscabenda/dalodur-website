@@ -24,7 +24,7 @@ A forma mais fácil de fazer deploy de um projeto Next.js.
    - Clique em "Deploy"
    - Aguarde o build completar
 
-**URL:** Seu site estará disponível em `https://seu-projeto.vercel.app`
+**URL:** Seu site estará disponível em `https://dalodur-website.vercel.app`
 
 ### 2. Netlify
 

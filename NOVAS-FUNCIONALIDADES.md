@@ -112,7 +112,7 @@ Mapa interativo do Google Maps na página de contatos mostrando a localização 
 ### Tamanhos:
 - **Header:** h-20 (80px) - Destaque total
 - **Footer:** h-16 (64px) - Bem visível
-- **Logo usado:** `logo-full.svg` (versão completa)
+- **Logo usado:** `simbolo.svg` (versão completa)
 
 ### Onde ver:
 - Topo do site (header)

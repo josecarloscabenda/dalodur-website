@@ -21,7 +21,7 @@
 
 ### 4. 🎨 Logo Aumentado
 - ✅ h-20 (80px) no header
-- ✅ Logo-full.svg em toda parte
+- ✅ simbolo.svg em toda parte
 
 ### 5. 🖼️ Slider Corrigido
 - ✅ Imagens aparecem corretamente

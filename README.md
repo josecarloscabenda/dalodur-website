@@ -8,7 +8,7 @@ Website profissional em Next.js para a Dalodur Solutions Ltd, empresa de consult
 - ✅ 🖼️ **Upload de imagens** direto pelo admin (sem FTP!)
 - ✅ 🗺️ **Mapa Google** configurável na página de contatos
 - ✅ 🚫 **Layout admin separado** (sem menu do site público)
-- ✅ 🎨 **Logo aumentado** (h-20) usando logo-full.svg
+- ✅ 🎨 **Logo aumentado** (h-20) usando simbolo.svg
 - ✅ 🖼️ **Slider corrigido** e funcionando perfeitamente
 - ✅ 🧹 **Estrutura limpa** e organizada
 
@@ -17,8 +17,8 @@ Website profissional em Next.js para a Dalodur Solutions Ltd, empresa de consult
 ## 🎨 Design
 
 - **Cores Principais:**
-  - Verde: `#0097b2` (Primary)
-  - Azul: `#004aad` (Secondary)
+  - Verde: `#99b1bd` (Primary)
+  - Azul: `#2e4b74` (Secondary)
   - Fundo: Branco
   - Texto: Tons de cinza
 
@@ -106,8 +106,8 @@ Veja documentação detalhada em `CPANEL-DEPLOY.md`
 ## 🎨 Configuração do Logo
 
 Seus logos SVG já estão integrados no projeto:
-- **Logo principal:** `/public/logo.svg`
-- **Logo completo:** `/public/logo-full.svg`
+- **Logo principal:** `/public/logo_completo_dalodur.svg`
+- **Logo completo:** `/public/simbolo.svg`
 
 **Onde os logos aparecem:**
 - Header (topo do site)
@@ -144,7 +144,7 @@ dalodur-website/
 │   ├── email-config.json # Config de email
 │   └── messages.json    # Mensagens recebidas
 ├── public/              # Arquivos públicos
-│   ├── logo.svg
+│   ├── logo_completo_dalodur.svg
 │   └── slides/          # Imagens dos slides
 └── README.md
 ```
@@ -178,8 +178,8 @@ dalodur-website/
 Edite `tailwind.config.ts`:
 ```typescript
 colors: {
-  primary: '#0097b2',  // Verde principal
-  secondary: '#004aad', // Azul secundário
+  primary: '#99b1bd',  // Verde principal
+  secondary: '#2e4b74', // Azul secundário
 }
 ```
 

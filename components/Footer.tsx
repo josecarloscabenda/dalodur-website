@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="mb-4">
               <img 
-                src="/logo-full.svg" 
+                src="/simbolo.svg" 
                 alt="Dalodur Solutions" 
                 className="h-16 w-auto mb-4"
               />

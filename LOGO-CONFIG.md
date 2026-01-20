@@ -4,8 +4,8 @@
 
 O projeto já inclui seus logos SVG:
 
-1. **`/public/logo.svg`** - Logo principal (versão curta)
-2. **`/public/logo-full.svg`** - Logo completo (versão longa)
+1. **`/public/logo_completo_dalodur.svg`** - Logo principal (versão curta)
+2. **`/public/simbolo.svg`** - Logo completo (versão longa)
 
 ## 🔧 Onde o Logo é Usado
 
@@ -15,7 +15,7 @@ O projeto já inclui seus logos SVG:
 ```tsx
 // Linha ~38
 <img 
-  src="/logo.svg" 
+  src="/logo_completo_dalodur.svg" 
   alt="Dalodur Solutions" 
   className="h-12 w-auto"
 />
@@ -23,7 +23,7 @@ O projeto já inclui seus logos SVG:
 
 **Para alterar:**
 - Tamanho: Mude `h-12` (altura) conforme necessário
-- Logo: Troque `"/logo.svg"` por outro arquivo se desejar
+- Logo: Troque `"/logo_completo_dalodur.svg"` por outro arquivo se desejar
 
 ### 2. Footer (Rodapé)
 **Arquivo:** `components/Footer.tsx`
@@ -31,7 +31,7 @@ O projeto já inclui seus logos SVG:
 ```tsx
 // Linha ~11
 <img 
-  src="/logo.svg" 
+  src="/logo_completo_dalodur.svg" 
   alt="Dalodur Solutions" 
   className="h-12 w-auto"
 />
@@ -44,7 +44,7 @@ O projeto já inclui seus logos SVG:
 // Linha ~32 - Atualmente usa ícone "D"
 // Para usar o logo:
 <img 
-  src="/logo.svg" 
+  src="/logo_completo_dalodur.svg" 
   alt="Dalodur Solutions" 
   className="h-16 w-auto mx-auto mb-4"
 />
@@ -57,7 +57,7 @@ O projeto já inclui seus logos SVG:
 // Linha ~68 - Atualmente usa ícone "D"
 // Para usar o logo:
 <img 
-  src="/logo.svg" 
+  src="/logo_completo_dalodur.svg" 
   alt="Dalodur Solutions" 
   className="h-10 w-auto"
 />
@@ -77,7 +77,7 @@ Se você tem um novo logo:
 2. **Substitua o arquivo:**
    ```bash
    # Coloque seu novo logo em:
-   public/logo.svg
+   public/logo_completo_dalodur.svg
    
    # Ou se for PNG:
    public/logo.png
@@ -86,7 +86,7 @@ Se você tem um novo logo:
 3. **Atualize as referências (se mudou extensão):**
    ```tsx
    // De:
-   src="/logo.svg"
+   src="/logo_completo_dalodur.svg"
    
    // Para:
    src="/logo.png"
@@ -110,19 +110,19 @@ Use classes Tailwind CSS:
 
 ```tsx
 {/* Pequeno - 32px */}
-<img src="/logo.svg" className="h-8 w-auto" />
+<img src="/logo_completo_dalodur.svg" className="h-8 w-auto" />
 
 {/* Médio - 48px (padrão) */}
-<img src="/logo.svg" className="h-12 w-auto" />
+<img src="/logo_completo_dalodur.svg" className="h-12 w-auto" />
 
 {/* Grande - 64px */}
-<img src="/logo.svg" className="h-16 w-auto" />
+<img src="/logo_completo_dalodur.svg" className="h-16 w-auto" />
 
 {/* Extra Grande - 80px */}
-<img src="/logo.svg" className="h-20 w-auto" />
+<img src="/logo_completo_dalodur.svg" className="h-20 w-auto" />
 
 {/* Responsivo */}
-<img src="/logo.svg" className="h-8 md:h-12 lg:h-16 w-auto" />
+<img src="/logo_completo_dalodur.svg" className="h-8 md:h-12 lg:h-16 w-auto" />
 ```
 
 ## 🖼️ Favicon (Ícone do Navegador)
@@ -154,7 +154,7 @@ Para atualizar tudo de uma vez:
 
 ```bash
 # 1. Coloque seu logo em public/
-cp seu-logo.svg public/logo.svg
+cp seu-logo_completo_dalodur.svg public/logo_completo_dalodur.svg
 
 # 2. (Opcional) Crie favicon
 cp seu-logo-32x32.png public/favicon.ico
@@ -175,7 +175,7 @@ Se quiser usar o logo completo no admin em vez do ícone "D":
 // Substitua linhas 31-35:
 
 <img 
-  src="/logo-full.svg" 
+  src="/simbolo.svg" 
   alt="Dalodur Solutions" 
   className="h-20 w-auto mx-auto mb-4"
 />
@@ -188,7 +188,7 @@ Se quiser usar o logo completo no admin em vez do ícone "D":
 // Substitua linhas 67-76:
 
 <img 
-  src="/logo.svg" 
+  src="/logo_completo_dalodur.svg" 
   alt="Dalodur Solutions" 
   className="h-10 w-auto"
 />
@@ -213,7 +213,7 @@ Se quiser usar o logo completo no admin em vez do ícone "D":
    - Otimize com TinyPNG
 
 3. **Cores:**
-   - Use cores da marca (#0097b2, #004aad)
+   - Use cores da marca (#99b1bd, #2e4b74)
    - Versões: colorida e branca (para fundos escuros)
 
 ## 📊 Tamanhos Recomendados
@@ -228,8 +228,8 @@ Se quiser usar o logo completo no admin em vez do ícone "D":
 
 ## ✅ Checklist de Logo
 
-- [ ] Logo principal em `/public/logo.svg`
-- [ ] Logo completo em `/public/logo-full.svg`
+- [ ] Logo principal em `/public/logo_completo_dalodur.svg`
+- [ ] Logo completo em `/public/simbolo.svg`
 - [ ] Favicon configurado
 - [ ] Header atualizado
 - [ ] Footer atualizado
@@ -243,7 +243,7 @@ Se quiser usar o logo completo no admin em vez do ícone "D":
 
 ### Logo não aparece
 - Verifique se o arquivo existe em `/public/`
-- Verifique o caminho: `/logo.svg` (com barra inicial)
+- Verifique o caminho: `/logo_completo_dalodur.svg` (com barra inicial)
 - Limpe cache do navegador (Ctrl+Shift+R)
 - Verifique console do navegador (F12) para erros
 

@@ -72,12 +72,12 @@ npm run dev
 
 **O que esperar:**
 - Logo GRANDE no topo (80px de altura)
-- Usando `logo-full.svg`
+- Usando `simbolo.svg`
 
 **Como confirmar:**
 - Inspecionar elemento (F12)
 - Ver se tem `h-20` na classe
-- Ver se src é `/logo-full.svg`
+- Ver se src é `/simbolo.svg`
 
 ---
 
@@ -157,8 +157,8 @@ ls -la app/admin/layout.tsx
 # Deve mostrar o arquivo
 
 # 3. Verificar logo no Header
-grep "logo-full.svg" components/Header.tsx
-# Deve mostrar linhas com logo-full.svg
+grep "simbolo.svg" components/Header.tsx
+# Deve mostrar linhas com simbolo.svg
 
 # 4. Verificar mapa no contato
 grep "mapConfig" app/contato/page.tsx
@@ -190,7 +190,7 @@ grep "handleImageUpload" app/admin/slides/page.tsx
 **Solução:**
 1. Limpar cache do navegador (CTRL+SHIFT+R)
 2. Inspecionar elemento (F12)
-3. Ver se está carregando `/logo-full.svg`
+3. Ver se está carregando `/simbolo.svg`
 4. Ver se tem classe `h-20`
 
 ### "Mapa não aparece nas settings"
@@ -215,7 +215,7 @@ Execute este checklist:
 # 3. Verificar arquivos
 [ ] ls app/api/admin/upload/route.ts          # Deve existir
 [ ] ls app/admin/layout.tsx                   # Deve existir
-[ ] grep "logo-full.svg" components/Header.tsx # Deve aparecer
+[ ] grep "simbolo.svg" components/Header.tsx # Deve aparecer
 [ ] grep "mapConfig" app/contato/page.tsx     # Deve aparecer
 
 # 4. Iniciar

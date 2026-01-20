@@ -32,8 +32,8 @@ Website profissional em Next.js 14 com TypeScript e Tailwind CSS para a Dalodur 
 
 ## 🎨 Paleta de Cores
 
-- **Verde Principal:** `#0097b2`
-- **Azul Secundário:** `#004aad`
+- **Verde Principal:** `#99b1bd`
+- **Azul Secundário:** `#2e4b74`
 - **Fundo:** Branco (#FFFFFF)
 - **Texto:** Tons de cinza (#1F2937, #4B5563, #6B7280)
 
@@ -66,8 +66,8 @@ dalodur-website/
 │   ├── email-config.json   # Configuração de email
 │   └── messages.json       # Mensagens recebidas
 ├── public/                 # Arquivos públicos
-│   ├── logo.svg
-│   ├── logo-full.svg
+│   ├── logo_completo_dalodur.svg
+│   ├── simbolo.svg
 │   └── slides/             # Imagens dos slides
 ├── package.json
 ├── tailwind.config.ts
@@ -188,8 +188,8 @@ Veja o arquivo `DEPLOY.md` para instruções detalhadas.
 Edite `tailwind.config.ts`:
 ```typescript
 colors: {
-  primary: '#0097b2',    // Verde
-  secondary: '#004aad',  // Azul
+  primary: '#99b1bd',    // Verde
+  secondary: '#2e4b74',  // Azul
 }
 ```
 

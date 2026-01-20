@@ -44,7 +44,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <img 
-              src="/logo-full.svg" 
+              src="/simbolo.svg" 
               alt="Dalodur Solutions" 
               className="h-20 w-auto"
             />

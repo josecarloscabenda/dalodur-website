@@ -69,7 +69,7 @@ export default function AdminDashboard() {
             <div className="flex items-center gap-3">
               <div className="w-20 h-20 flex items-center justify-center">
                 <img 
-              src="/logo-full.svg" 
+              src="/simbolo.svg" 
               alt="Dalodur Solutions" 
               className="h-20 w-auto"
             />
